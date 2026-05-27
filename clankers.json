@@ -222,6 +222,12 @@
     "last_pr": "2026-05-27T07:37:34.765Z"
   },
   {
+    "username": "tufstraka",
+    "total_prs": 2,
+    "first_pr": "2026-05-27T10:26:09.463Z",
+    "last_pr": "2026-05-27T10:32:04.422Z"
+  },
+  {
     "username": "CuboYe",
     "total_prs": 1,
     "first_pr": "2026-05-16T16:52:10.623Z",
@@ -334,11 +340,5 @@
     "total_prs": 1,
     "first_pr": "2026-05-27T01:42:57.674Z",
     "last_pr": "2026-05-27T01:42:57.674Z"
-  },
-  {
-    "username": "tufstraka",
-    "total_prs": 1,
-    "first_pr": "2026-05-27T10:26:09.463Z",
-    "last_pr": "2026-05-27T10:26:09.463Z"
   }
 ]

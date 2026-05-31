@@ -58,6 +58,7 @@ Automated tracking of all Clankers PR contributors.
 | tufstraka | 2 | 2026-05-27T10:26:09.463Z | 2026-05-27T10:32:04.422Z |
 | soongyintong | 2 | 2026-05-16T23:47:04.809Z | 2026-05-30T23:50:02.782Z |
 | Klepsiphron | 2 | 2026-05-30T23:46:56.687Z | 2026-05-31T00:12:57.878Z |
+| poppletoncrespino-jpg | 2 | 2026-05-31T11:26:16.413Z | 2026-05-31T11:48:57.535Z |
 | CuboYe | 1 | 2026-05-16T16:52:10.623Z | 2026-05-16T16:52:10.623Z |
 | huthoinguyn | 1 | 2026-05-16T17:22:43.947Z | 2026-05-16T17:22:43.947Z |
 | simpleprogrammer2 | 1 | 2026-05-17T01:19:00.780Z | 2026-05-17T01:19:00.780Z |
@@ -81,4 +82,3 @@ Automated tracking of all Clankers PR contributors.
 | nkgotcode | 1 | 2026-05-28T15:19:45.593Z | 2026-05-28T15:19:45.593Z |
 | a918124259a | 1 | 2026-05-28T15:39:10.599Z | 2026-05-28T15:39:10.599Z |
 | misakaAron | 1 | 2026-05-28T17:56:26.471Z | 2026-05-28T17:56:26.471Z |
-| poppletoncrespino-jpg | 1 | 2026-05-31T11:26:16.413Z | 2026-05-31T11:26:16.413Z |

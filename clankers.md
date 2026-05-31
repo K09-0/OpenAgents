@@ -81,3 +81,4 @@ Automated tracking of all Clankers PR contributors.
 | nkgotcode | 1 | 2026-05-28T15:19:45.593Z | 2026-05-28T15:19:45.593Z |
 | a918124259a | 1 | 2026-05-28T15:39:10.599Z | 2026-05-28T15:39:10.599Z |
 | misakaAron | 1 | 2026-05-28T17:56:26.471Z | 2026-05-28T17:56:26.471Z |
+| poppletoncrespino-jpg | 1 | 2026-05-31T11:26:16.413Z | 2026-05-31T11:26:16.413Z |

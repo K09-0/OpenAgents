@@ -318,6 +318,12 @@
     "last_pr": "2026-05-31T00:12:57.878Z"
   },
   {
+    "username": "duongynhi000005-oss",
+    "total_prs": 2,
+    "first_pr": "2026-05-31T08:42:38.726Z",
+    "last_pr": "2026-05-31T08:49:39.730Z"
+  },
+  {
     "username": "CuboYe",
     "total_prs": 1,
     "first_pr": "2026-05-16T16:52:10.623Z",
@@ -454,11 +460,5 @@
     "total_prs": 1,
     "first_pr": "2026-05-28T17:56:26.471Z",
     "last_pr": "2026-05-28T17:56:26.471Z"
-  },
-  {
-    "username": "duongynhi000005-oss",
-    "total_prs": 1,
-    "first_pr": "2026-05-31T08:42:38.726Z",
-    "last_pr": "2026-05-31T08:42:38.726Z"
   }
 ]

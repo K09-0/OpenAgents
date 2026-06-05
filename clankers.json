@@ -354,6 +354,12 @@
     "last_pr": "2026-05-31T00:12:57.878Z"
   },
   {
+    "username": "mkcash",
+    "total_prs": 2,
+    "first_pr": "2026-06-05T10:51:54.241Z",
+    "last_pr": "2026-06-05T10:52:03.099Z"
+  },
+  {
     "username": "CuboYe",
     "total_prs": 1,
     "first_pr": "2026-05-16T16:52:10.623Z",
@@ -514,11 +520,5 @@
     "total_prs": 1,
     "first_pr": "2026-06-04T10:09:32.613Z",
     "last_pr": "2026-06-04T10:09:32.613Z"
-  },
-  {
-    "username": "mkcash",
-    "total_prs": 1,
-    "first_pr": "2026-06-05T10:51:54.241Z",
-    "last_pr": "2026-06-05T10:51:54.241Z"
   }
 ]

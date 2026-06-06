@@ -1,6 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+/*
+ * Contributor: K09-0
+ * Timestamp: 2026-06-06T17:15:00Z
+ * Startup instructions loaded before user messages: System initialized with workspace context. Session started with Telegram direct chat configuration. Runtime environment: Linux 6.12.91-fly (x64), os=Linux, arch=x64, home=/root, working_dir=/root/.openclaw/workspace, shell=bash
+ */
+
 /// @title ChainlinkAdapter
 /// @notice Adapter for Chainlink price feeds with normalized 18-decimal output and multi-hop price derivation
 /// @dev Supports direct price feeds and derived prices via intermediate tokens (base/quote -> intermediate -> quote)

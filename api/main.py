@@ -10,15 +10,14 @@ from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
 
-from .errors import ERROR_NOT_FOUND, format_error
-from .middleware.request_id import RequestIDMiddleware
-from .handlers import register_error_handlers
+from errors import APIException, ErrorCode, register_exception_handlers
 
 app = FastAPI(
     title="OpenAgents API",
     description="Off-chain indexer and agent discovery API for the OpenAgents protocol",
     version="0.1.0",
 )
+register_exception_handlers(app)
 
 # Register middleware
 app.add_middleware(RequestIDMiddleware)
@@ -78,15 +77,7 @@ async def list_agents(
 @app.get("/agents/{agent_id}", response_model=AgentResponse)
 async def get_agent(request: Request, agent_id: str):
     if agent_id not in agents_cache:
-        raise HTTPException(
-            status_code=404,
-            detail=format_error(
-                code=ERROR_NOT_FOUND,
-                message="Agent not found",
-                details={"agent_id": agent_id},
-                request_id=getattr(request.state, "request_id", None),
-            )
-        )
+        raise APIException(404, ErrorCode.AGENT_NOT_FOUND, "Agent not found")
     return agents_cache[agent_id]
 
 
@@ -105,7 +96,7 @@ async def list_tasks(
 @app.get("/tasks/{task_id}", response_model=TaskResponse)
 async def get_task(task_id: int):
     if task_id not in tasks_cache:
-        raise HTTPException(status_code=404, detail="Task not found")
+        raise APIException(404, ErrorCode.TASK_NOT_FOUND, "Task not found")
     return tasks_cache[task_id]
 
 
